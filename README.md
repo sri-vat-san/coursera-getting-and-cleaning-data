@@ -8,8 +8,8 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 **Before running the R script for analysis, here are the steps that must be performed:**
 
 1. Download the zip file from this URL (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
-2. Unzip the file.
-3. Move ALL of the following files to the SAME DIRECTORY as the R script:
+2. Unzip the file and retain the default folder structure.
+3. Place the R script under the working directory i.e. `/UCI HAR Dataset`. The files used for our analysis are:
   * Data relating to the features collected from the accelerometer and gyroscope
     * `X_train.txt`
     * `X_test.txt`
