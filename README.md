@@ -5,7 +5,7 @@ The purpose of this project is to showcase our learnings towards preparing a tid
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-**Before running the R script for analysis, here are the steps that must be performed:**
+**Before running the R script ([run_analysis.R](run_analysis.R)) for analysis, here are the steps that must be performed:**
 
 1. Download the zip file from this URL (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 2. Unzip the file and retain the default folder structure.
@@ -22,7 +22,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
     * `subject_train.txt`
     * `subject_test.txt`
     
-After completing these steps, you can run the R script ([run_analysis.R](run_analysis.R)) and call the run_analysis() function. This would in turn, call the ingredient functions which process the data set and outputs the desired tidy data set. 
+After completing these steps, you can run the R script and call the **run_analysis()** function from the console. This would in turn, call the ingredient functions which process the data set and outputs the desired tidy data set. 
 
 **Note:** This script requires the [plyr package](https://cran.r-project.org/web/packages/plyr/index.html), which can be downloaded from CRAN.
 
